@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPARKLOOM TECHNOLOGY</title>
+  
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+  
+    <!-- AOS Library CSS for Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+    <!-- jQuery CDN -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha384-UG8ao2jwOWB7/oDdObZc6ItJmwUkR/PfMyt9Qs5AwX7PsnYn1CRKCTWyncPTWvaS"
+      crossorigin="anonymous"
+    ></script>
+  
+    <!-- Add fallback for jQuery -->
+    <script>
+      if (typeof jQuery === 'undefined') {
+        var script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js';
+        script.integrity = 'sha384-UG8ao2jwOWB7/oDdObZc6ItJmwUkR/PfMyt9Qs5AwX7PsnYn1CRKCTWyncPTWvaS';
+        script.crossOrigin = 'anonymous';
+        document.head.appendChild(script);
+      }
+    </script>
+  </head>  
+  <body>
+  <!-- Navbar Starts -->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container-fluid px-5">
+      <!-- Brand Logo -->
+      <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">
+        <img src="images/logo1.webp" alt="Brand Logo" style="height: 70px; width: auto;">
+      </a>
+
+  
+      <!-- Mobile Menu Toggle Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="bi bi-menu-button-fill"></i>
+      </button>
+  
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+    <!-- Home Section Starts -->
+    <section class="home py-5" id="home">
+      <div class="container">
+        <div class="row justify-content-evenly align-items-center">
+          <!-- Animated Text Section -->
+          <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+            <h2 class="fw-bold" style="color: #3f396d">
+              SPARKLOOM <br />
+              <span class="text-warning">TECHNOLOGY</span>
+            </h2>
+            <p class="text-muted">
+              Sparkloom Technology is a cutting-edge IT solutions provider committed to delivering innovative and scalable technology solutions. 
+              Established with a vision to empower businesses through digital transformation, we specialize in crafting customized software 
+              solutions tailored to meet the unique needs of our clients.
+            </p>
+          </div>
+
+          <!-- Image Section -->
+          <div class="col-10 col-md-4 text-center">
+            <img src="images/banner-01.webp" class="img-fluid rounded" alt="Sparkloom Technology Banner" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section Ends -->
+
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>Our Services</small>
+        <h3>
+          Provide Wide Range of <br />
+          IT Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <!-- Service 1 -->
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/Software_Development.png"
+                class="w-25 img-fluid"
+                alt="Software Development"
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Software Development</h4>
+              <p class="text-muted">
+                Custom web and mobile application development. Scalable enterprise
+                solutions using modern frameworks like Django, React, and Angular.
+                API development and integration.
+              </p>
+              <a href="#" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/Cloud.png"
+                class="w-25 img-fluid"
+                alt="Cloud Computing Solutions"
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Cloud Computing Solutions</h4>
+              <p class="text-muted">
+                Cloud migration and deployment services. Expertise in AWS, Azure,
+                and Google Cloud. Kubernetes and Docker-based containerization.
+              </p>
+              <a href="#" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/Devops.png"
+                class="w-25 img-fluid"
+                alt="DevOps Services"
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>DevOps Services</h4>
+              <p class="text-muted">
+                CI/CD pipeline setup and optimization. Automation tools and
+                infrastructure management. Monitoring and logging solutions for
+                enhanced uptime.
+              </p>
+              <a href="#" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 4 -->
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/Data_Solutions.png"
+                class="w-25 img-fluid"
+                alt="Data Solutions"
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Data Solutions</h4>
+              <p class="text-muted">
+                Data analytics and business intelligence. Database management with
+                SQL and NoSQL solutions. Big data integration and processing.
+              </p>
+              <a href="#" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 5 -->
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/IT_Consulting.png"
+                class="w-25 img-fluid"
+                alt="IT Consulting"
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>IT Consulting</h4>
+              <p class="text-muted">
+                Technology roadmap and strategy development. Digital transformation
+                consulting. Cybersecurity solutions.
+              </p>
+              <a href="#" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <!-- expertise section ends here -->
+
+    <!-- Skill Section Starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="container">
+        <div class="row align-items-start">
+
+          <!-- Left Section -->
+          <div class="col-md-6" data-aos="slide-left">
+            <div class="heading">
+              <h3>Why Choose Sparkloom Technology?</h3>
+              <p class="text-muted">
+                <strong>Expert Team:</strong> A team of skilled professionals with deep expertise in modern technologies.
+              </p>
+              <p class="text-muted">
+                <strong>Client-Centric Approach:</strong> Tailored solutions that align with your business objectives.
+              </p>
+              <p class="text-muted">
+                <strong>Commitment to Excellence:</strong> Delivering projects on time, within budget, and beyond expectations.
+              </p>
+              <p class="text-muted">
+                <strong>Innovation Driven:</strong> Leveraging the latest tools and methodologies to stay ahead of the curve.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Section -->
+          <div class="col-md-6" data-aos="slide-right">
+            <div class="heading">
+              <h3>Industries We Serve</h3>
+              <p class="text-muted">
+                <strong>Finance:</strong> Digital banking, payment gateways, and fintech solutions.
+              </p>
+              <p class="text-muted">
+                <strong>Healthcare:</strong> Telemedicine platforms, patient management systems, and IoT healthcare devices.
+              </p>
+              <p class="text-muted">
+                <strong>E-Commerce:</strong> Custom e-commerce platforms, inventory management, and marketplace integration.
+              </p>
+              <p class="text-muted">
+                <strong>Education:</strong> Learning management systems and e-learning platforms.
+              </p>
+              <p class="text-muted">
+                <strong>Manufacturing:</strong> Automation systems, ERP solutions, and predictive maintenance tools.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Skill Section Ends -->
+
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="projects">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check Our Projects</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- Filtering buttons -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="mobileapp">Mobile App</button>
+        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="platform">Platform</button>
+      </div>
+
+      <!-- Carousel Section -->
+      <div id="projectCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="carousel-item active">
+            <div class="row justify-content-evenly px-4">
+              <!-- Fesste Food Ordering App -->
+              <div class="post col-md-4 mobileapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/Food.webp" class="card-img-top" alt="Fesste Food Ordering App" />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Fesste Food Ordering App</h4>
+                    <span class="badge bg-secondary badge-pill">Flutter</span>
+                    <span class="badge bg-secondary badge-pill">Mobile App</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Bulk Orders</span><br />
+                    <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dealsify -->
+              <div class="post col-md-4 platform all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/Dealsify.jpg" class="card-img-top" alt="Dealsify" />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Dealsify</h4>
+                    <span class="badge bg-secondary badge-pill">Cloud</span>
+                    <span class="badge bg-secondary badge-pill">Platform</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Manufacturing</span><br />
+                    <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Local Hunt News App -->
+              <div class="post col-md-4 mobileapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/news.jpg" class="card-img-top" alt="Local Hunt News App" />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Local Hunt News App</h4>
+                    <span class="badge bg-secondary badge-pill">Flutter</span>
+                    <span class="badge bg-secondary badge-pill">Mobile App</span>
+                    <span class="badge bg-secondary badge-pill mb-2">News</span><br />
+                    <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Slide -->
+          <div class="carousel-item">
+            <div class="row justify-content-evenly px-4">
+              <!-- Fesste Service Provider App -->
+              <div class="post col-md-4 mobileapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/Service.webp" class="card-img-top" alt="Fesste Service Provider App" />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Fesste Service Provider App</h4>
+                    <span class="badge bg-secondary badge-pill">Flutter</span>
+                    <span class="badge bg-secondary badge-pill">Mobile App</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Services</span><br />
+                    <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal4">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Schoolify -->
+              <div class="post col-md-4 platform all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/school.jpg" class="card-img-top" alt="Schoolify" />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Schoolify</h4>
+                    <span class="badge bg-secondary badge-pill">Web App</span>
+                    <span class="badge bg-secondary badge-pill">Education</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Platform</span><br />
+                    <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal5">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- RacketPro Web App -->
+              <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/racket.jpg" class="card-img-top" alt="RacketPro Web App" />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">RacketPro Web App</h4>
+                    <span class="badge bg-secondary badge-pill">Web App</span>
+                    <span class="badge bg-secondary badge-pill">Sports</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Platform</span><br />
+                    <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal6">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Slide -->
+          <div class="carousel-item">
+            <div class="row justify-content-evenly mt-4 px-4">
+              <!-- Nrityam Ruchi Academy App -->
+              <div class="post col-md-4 mobileapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/Nrityam.webp" class="card-img-top" alt="Nrityam Ruchi Academy App" />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Nrityam Ruchi Academy App</h4>
+                    <span class="badge bg-secondary badge-pill">Flutter</span>
+                    <span class="badge bg-secondary badge-pill">Fitness</span>
+                    <span class="badge bg-secondary badge-pill mb-2">App</span><br />
+                    <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal7">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Any Time Mobile -->
+              <div class="post col-md-4 mobileapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/Mobile.webp" class="card-img-top" alt="Any Time Mobile App" />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Any Time Mobile</h4>
+                    <span class="badge bg-secondary badge-pill">Flutter</span>
+                    <span class="badge bg-secondary badge-pill">Shop Management</span>
+                    <span class="badge bg-secondary badge-pill mb-2">Mobile App</span><br />
+                    <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal8">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Invisible Carousel Controls -->
+        <button class="carousel-control-prev invisible-slide-btn" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next invisible-slide-btn" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Filtering script -->
+    <script>
+      const filterButtons = document.querySelectorAll('.filter-item');
+      const posts = document.querySelectorAll('.post');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const filter = button.getAttribute('data-filter');
+          
+          posts.forEach(post => {
+            if (filter === 'all' || post.classList.contains(filter)) {
+              post.style.display = 'block';
+            } else {
+              post.style.display = 'none';
+            }
+          });
+        });
+      });
+    </script>
+
+
+      <!-- Modals for each project -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/Food.webp" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <h4 class="card-title mt-3">Fesste Food Ordering App</h4>
+                <div class="social-links mt-4">
+                  <button href="" class="rounded-pill email-btn">
+                    <i class="bi bi-envelope"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill linkedin">
+                    <i class="bi bi-linkedin"></i>
+                  </button>
+                </div>
+                <p class="text-muted mt-3">A Flutter-based food delivery app designed for seamless group and bulk ordering, perfect for parties, events, and office lunches. It offers customizable portion sizes, real-time order tracking, secure payment gateways, and insights into order summaries.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/Dealsify.jpg" class="img-fluid" alt="Dealsify" />
+            </div>
+            <div class="content mt-3">
+              <h4 class="card-title mt-3">Dealsify</h4>
+              <div class="social-links mt-4">
+                <button href="" class="rounded-pill email-btn">
+                  <i class="bi bi-envelope"></i>
+                </button>
+                <button href="" class="rounded-pill whatsapp">
+                  <i class="bi bi-whatsapp"></i>
+                </button>
+                <button href="" class="rounded-pill linkedin">
+                  <i class="bi bi-linkedin"></i>
+              </button>
+              </div>
+              <p class="text-muted mt-3">A cloud-based manufacturing management platform tailored for MSMEs. Dealsify streamlines production processes, inventory management, and operations, providing complete visibility and control to enhance efficiency and support business growth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Local Hunt News App -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/news.jpg" class="img-fluid" alt="Local Hunt News App" />
+            </div>
+            <div class="content mt-3">
+              <h4 class="card-title mt-3">Local Hunt News App</h4>
+              <div class="social-links mt-4">
+                <button href="" class="rounded-pill email-btn">
+                  <i class="bi bi-envelope"></i>
+                </button>
+                <button href="" class="rounded-pill whatsapp">
+                  <i class="bi bi-whatsapp"></i>
+                </button>
+                <button href="" class="rounded-pill linkedin">
+                  <i class="bi bi-linkedin"></i>
+              </button>
+              </div>
+              <p class="text-muted mt-3">A content aggregation app inspired by Dailyhunt, built using Flutter. It delivers personalized news, multilingual support, and an intelligent recommendation engine. Features include real-time updates, push notifications, and a user-friendly interface for an engaging news experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Fesste Service Provider App -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/Service.webp" class="img-fluid" alt="Fesste Service Provider App" />
+            </div>
+            <div class="content mt-3">
+              <h4 class="card-title mt-3">Fesste Service Provider App</h4>
+              <div class="social-links mt-4">
+                <button href="" class="rounded-pill email-btn">
+                  <i class="bi bi-envelope"></i>
+                </button>
+                <button href="" class="rounded-pill whatsapp">
+                  <i class="bi bi-whatsapp"></i>
+                </button>
+                <button href="" class="rounded-pill linkedin">
+                  <i class="bi bi-linkedin"></i>
+              </button>
+              </div>
+              <p class="text-muted mt-3">A versatile app connecting users with professionals for services like home repairs, cleaning, and beauty treatments. It includes real-time availability, in-app chat, integrated payments, and an intuitive interface for a seamless booking experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Schoolify -->
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/school.jpg" class="img-fluid" alt="Schoolify" />
+            </div>
+            <div class="content mt-3">
+              <h4 class="card-title mt-3">Schoolify</h4>
+              <div class="social-links mt-4">
+                <button href="" class="rounded-pill email-btn">
+                  <i class="bi bi-envelope"></i>
+                </button>
+                <button href="" class="rounded-pill whatsapp">
+                  <i class="bi bi-whatsapp"></i>
+                </button>
+                <button href="" class="rounded-pill linkedin">
+                  <i class="bi bi-linkedin"></i>
+              </button>
+              </div>
+              <p class="text-muted mt-3">A comprehensive platform for educational institutions featuring course management, assessments, quizzes, and progress tracking. Schoolify offers customization options for branding and provides tools for instructors to create and manage courses effectively.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for RacketPro Web App -->
+    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/racket.jpg" class="img-fluid" alt="RacketPro Web App" />
+            </div>
+            <div class="content mt-3">
+              <h4 class="card-title mt-3">RacketPro Web App</h4>
+              <div class="social-links mt-4">
+                <button href="" class="rounded-pill email-btn">
+                  <i class="bi bi-envelope"></i>
+                </button>
+                <button href="" class="rounded-pill whatsapp">
+                  <i class="bi bi-whatsapp"></i>
+                </button>
+                <button href="" class="rounded-pill linkedin">
+                  <i class="bi bi-linkedin"></i>
+              </button>
+              </div>
+              <p class="text-muted mt-3">A feature-rich platform for racket sports enthusiasts. It enables match scheduling, tournament management, player statistics tracking, and community engagement. The responsive interface ensures seamless usage across devices, complemented by an admin panel for efficient management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Nrityam Ruchi Academy App -->
+    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/Nrityam.webp" class="img-fluid" alt="Nrityam Ruchi Academy App" />
+            </div>
+            <div class="content mt-3">
+              <h4 class="card-title mt-3">Nrityam Ruchi Academy App</h4>
+              <div class="social-links mt-4">
+                <button href="" class="rounded-pill email-btn">
+                  <i class="bi bi-envelope"></i>
+                </button>
+                <button href="" class="rounded-pill whatsapp">
+                  <i class="bi bi-whatsapp"></i>
+                </button>
+                <button href="" class="rounded-pill linkedin">
+                  <i class="bi bi-linkedin"></i>
+              </button>
+              </div>
+              <p class="text-muted mt-3">An all-in-one platform for dance, yoga, gym, and fitness classes. Built with Flutter, it offers class scheduling, instructor profiles, performance tracking, and personalized recommendations. The app fosters community engagement and connects users with professional trainers to meet their fitness and artistic goals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Any Time Mobile -->
+    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/Mobile.webp" class="img-fluid" alt="Any Time Mobile App" />
+            </div>
+            <div class="content mt-3">
+              <h4 class="card-title mt-3">Any Time Mobile</h4>
+              <div class="social-links mt-4">
+                <button href="" class="rounded-pill email-btn">
+                  <i class="bi bi-envelope"></i>
+                </button>
+                <button href="" class="rounded-pill whatsapp">
+                  <i class="bi bi-whatsapp"></i>
+                </button>
+                <button href="" class="rounded-pill linkedin">
+                  <i class="bi bi-linkedin"></i>
+                </button>
+              </div>
+              <p class="text-muted mt-3">A state-of-the-art Flutter-based app designed to streamline mobile accessories shop operations. Key features include inquiry management, stock management, and staff coordination for improved customer engagement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- Testimonial section starts -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="fade-right"> <!-- Changed slide-right to fade-right -->
+          <img src="images/tastimonials-img.png" class="img-fluid" alt="Testimonial Image" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="fade-left"> <!-- Changed slide-left to fade-left -->
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- Carousel element from Bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <!-- Testimonial Item 1 -->
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur aeci velit, sed quia non numquam eius modi tempora incidunt ut lao magnam aliquam quaerat ...
+                      </p>
+                      <h4>Kevin Andrew</h4>
+                      <small class="fs-6 text-muted">CEO of Company</small>
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonial Item 2 -->
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur aeci velit, sed quia non numquam eius modi tempora incidunt ut lao magnam aliquam quaerat ...
+                      </p>
+                      <h4>Kevin Andrew</h4>
+                      <small class="fs-6 text-muted">CEO of Company</small>
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonial Item 3 -->
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur aeci velit, sed quia non numquam eius modi tempora incidunt ut lao magnam aliquam quaerat ...
+                      </p>
+                      <h4>Kevin Andrew</h4>
+                      <small class="fs-6 text-muted">CEO of Company</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel controls -->
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <!-- Contact Details -->
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>BTM Layout, Bengaluru</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 88668 28820</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>sparkloomtechnology@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <form id="contactForm" class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="mobile" class="form-label">Mobile No.</label>
+              <input
+                type="text"
+                class="form-control"
+                id="mobile"
+                placeholder="Mobile No."
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                placeholder="Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="c-btn h-btn mt-3 py-3 px-5 rounded-pill"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+    <script>
+      // JavaScript for form submission
+      document.getElementById("contactForm").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent default form submission
+
+        // Get form data
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const mobile = document.getElementById("mobile").value;
+        const message = document.getElementById("message").value;
+
+        // Store or process the data
+        console.log("Form Data:");
+        console.log("Name:", name);
+        console.log("Email:", email);
+        console.log("Mobile:", mobile);
+        console.log("Message:", message);
+
+        // Optionally, clear the form
+        this.reset();
+
+        // Show success message
+        alert("Thank you for contacting us! Your details have been submitted.");
+      });
+    </script>
+
+
+    <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">SPARKLOOM TECHNOLOGY</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <span class="separator">|</span>
+        <a href="#about">About</a>
+        <span class="separator">|</span>
+        <a href="#service">Service</a>
+        <span class="separator">|</span>
+        <a href="#projects">Projects</a>
+        <span class="separator">|</span>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button 
+          class="rounded-pill email-btn" 
+          onclick="window.location.href='mailto:your-sparkloomtechnology@gmail.com?subject=Subject&body=Message'" 
+          aria-label="Send Email"
+        >
+          <i class="bi bi-envelope"></i>
+        </button>
+        <button 
+          class="rounded-pill whatsapp" 
+          onclick="window.open('https://wa.me/+918866828820', '_blank')" 
+          aria-label="Contact on WhatsApp"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button 
+          class="rounded-pill linkedin" 
+          onclick="window.open('https://www.linkedin.com/in/your-profile-link', '_blank')" 
+          aria-label="Visit LinkedIn"
+        >
+          <i class="bi bi-linkedin"></i>
+        </button>
+      </div>
+      
+      <hr class="text-muted my-4" />
+      <p>Copyright © 2025 Sparkloom Technology | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+    <!-- bootstrap javascript cdn link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
