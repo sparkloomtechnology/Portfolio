@@ -1,7 +1,13 @@
 /* appling google font over the website  */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 body, html {
     margin: 0;
@@ -146,7 +152,9 @@ body, html {
 }
 
 /* skill section starts */
-.skill{
+.skill {
+    padding: 20px 15px;
+    text-align: center;
     background-color: rgb(234, 234, 249);
 }
 .progress-card{
@@ -202,6 +210,12 @@ body, html {
     font-size: 1.3rem;
 }
 
+@media (max-width: 768px) {
+    .circular-progress {
+        height: 80px;
+        width: 80px;
+    }
+}
 /* portfolio section starts */
 #myBtnContainer{
     margin-bottom: 45px;
@@ -230,7 +244,7 @@ body, html {
 .post .card{
     border: none;
 }
-.card-img-top{
+.card-img-top {
     width: 70%;         
     height: 250px;     
     object-fit: cover;  
@@ -462,4 +476,3 @@ footer .link-group a:hover{
       .email-btn:hover {
         background-color: #0056b3;
       }
-      
