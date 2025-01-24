@@ -230,7 +230,7 @@ body, html {
 .post .card{
     border: none;
 }
-.card-img-top, .img-fluid{
+.card-img-top{
     width: 70%;         
     height: 250px;     
     object-fit: cover;  
