@@ -827,11 +827,10 @@
           <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
           <script>
             // Initialize EmailJS
-            emailjs.init("xAtKEErrJqJd-dlVw"); // Replace 'YOUR_PUBLIC_KEY' with your EmailJS public key
-
+            emailjs.init("xAtKEErrJqJd-dlVw");
             // JavaScript for form submission
             document.getElementById("contactForm").addEventListener("submit", function (e) {
-              e.preventDefault(); // Prevent default form submission
+              e.preventDefault();
 
               // Get form data
               const name = document.getElementById("name").value;
