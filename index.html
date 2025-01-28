@@ -859,28 +859,72 @@
         <a href="#contact">Contact</a>
       </div>
       <div class="social-links mt-5" data-aos="fade-up">
-        <button 
-          class="rounded-pill email-btn" 
-          onclick="window.location.href='mailto:sparkloomtechnology@gmail.com?subject=Subject&body=Message';" 
-          aria-label="Send Email"
-        >
-          <i class="bi bi-envelope"></i>
-        </button>
-        <button 
-          class="rounded-pill whatsapp" 
-          onclick="window.open('https://wa.me/+918866828820', '_blank')" 
-          aria-label="Contact on WhatsApp"
-        >
-          <i class="bi bi-whatsapp"></i>
-        </button>
-        <button 
-          class="rounded-pill linkedin" 
-          onclick="window.open('https://www.linkedin.com/in/your-profile-link', '_blank')" 
-          aria-label="Visit LinkedIn"
-        >
-          <i class="bi bi-linkedin"></i>
-        </button>
-      </div>
+      <!-- Email Button -->
+      <button 
+        class="rounded-pill email-btn" 
+        onclick="sendEmail()" 
+        aria-label="Send Email"
+      >
+        <i class="bi bi-envelope"></i>
+      </button>
+    
+      <!-- WhatsApp Button -->
+      <button 
+        class="rounded-pill whatsapp" 
+        onclick="contactOnWhatsApp()" 
+        aria-label="Contact on WhatsApp"
+      >
+        <i class="bi bi-whatsapp"></i>
+      </button>
+    
+      <!-- LinkedIn Button -->
+      <button 
+        class="rounded-pill linkedin" 
+        onclick="visitLinkedIn()" 
+        aria-label="Visit LinkedIn"
+      >
+        <i class="bi bi-linkedin"></i>
+      </button>
+    </div>
+    
+    <!-- JavaScript for Button Actions -->
+    <script>
+      // Function for sending email
+      function sendEmail() {
+        const email = "your-sparkloomtechnology@gmail.com";
+        const subject = "Subject";
+        const body = "Message";
+    
+        // Construct mailto link
+        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+        // Check if the browser supports mailto
+        try {
+          window.location.href = mailtoLink;
+        } catch (error) {
+          console.error("Error while trying to open email client:", error);
+          alert("Unable to open the email client. Please manually send an email.");
+        }
+      }
+    
+      // Function for WhatsApp contact
+      function contactOnWhatsApp() {
+        const phoneNumber = "+918866828820";
+        const whatsappLink = `https://wa.me/${phoneNumber}`;
+    
+        // Open WhatsApp link in a new tab
+        window.open(whatsappLink, "_blank");
+      }
+    
+      // Function for visiting LinkedIn
+      function visitLinkedIn() {
+        const linkedInProfile = "https://www.linkedin.com/in/your-profile-link";
+    
+        // Open LinkedIn profile in a new tab
+        window.open(linkedInProfile, "_blank");
+      }
+    </script>
+
       
       <hr class="text-muted my-4" />
       <p>Copyright © 2025 Sparkloom Technology | All Rights Reserved.</p>
